@@ -1,0 +1,43 @@
+.ditailsection {
+    margin-bottom: 100px;
+}
+.ditailsection .datail_img{
+    overflow: hidden;
+}
+
+
+
+.ditailsection .daitel_content{
+    margin: 20px 0;
+    
+}
+.ditailsection .daitel_content span{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 40px;
+
+
+}
+.ditailsection .daitel_content h4{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+
+}
+.ditailsection .daitel_content a{
+    text-decoration: none;
+
+}
+.ditailsection .daitel_content p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+
+}

@@ -1,0 +1,135 @@
+.deal_section{
+    height: max-content;
+    margin-bottom: 100px ;
+}
+.deal_section .deal-top{
+    height: 300px;
+    margin-bottom: 40px;
+}
+.deal_section .deal-top h6{
+    color: #ee626b;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.deal_section .deal-top h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 60px;
+}
+.deal_section .button_section{
+    display: flex ;
+    flex-direction: row;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+    margin-bottom: 40px;
+}
+.deal_section .buttons{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px !important;
+    padding: 50px;
+}
+.deal_section .buttons .red_button{
+    background-color: #f35525 !important;
+}
+
+.deal_section .button_section button{
+    padding: 10px 25px !important;
+    border-radius: 5px;
+    background-color: #000000 !important;
+
+}
+.deal_section .button_section button a{
+    text-decoration: none;
+    color:  white !important;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.deal_section .deal-top .button_section a{
+    text-decoration: none;
+}
+
+.deal_section .part1{
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+}
+.deal_section .part1 ul{
+    list-style: none;
+}
+.deal_section .part1 ul li{
+    display: block;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.deal_section .part1 ul li span{
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+.deal_section .part1 .img{
+    width: 100%;
+}
+.deal_section img{
+    width: 100%;
+}
+.deal_section .part3 h4{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.deal_section .part3  p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+.deal_section .wrapper{
+    width: 15rem !important;
+    max-width: 100%;
+    position: relative;
+    margin-top: 80px;
+  }
+.deal_section .wrapper .oval{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+  .deal_section .wrapper .oval:hover{
+    color:rgb(243, 85, 37); 
+    background-color: black;   
+
+}
+.deal_section .wrapper .circl{
+    background-color:rgb(243, 85, 37);    ;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    height: 98%;
+    position: absolute;
+    right: 77%;
+    aspect-ratio: 1;
+    padding: 5px 14px;
+    border-radius: 40px;
+    font-size: 19.5px;
+    margin-right: 5px;
+
+}

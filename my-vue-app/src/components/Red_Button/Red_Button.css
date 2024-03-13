@@ -1,0 +1,14 @@
+.red_button{
+    display: inline-block;
+    text-align: center;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: #f35525;
+    color: #fff;
+    padding: 13px 25px;
+    border-radius: 5px;
+    transition: all .3s;
+    border: none;
+    text-wrap: nowrap
+}

@@ -1,0 +1,88 @@
+ 
+.navbar{
+    width: 100% !important;
+    height: 110px;
+    padding: 40px 100px !important;
+    position: fixed !important;
+    top: 70px !important;
+    z-index: 4;
+    background-color: white;
+}
+.change-top{
+    top: 0 !important;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+}
+.navbar-brand{
+    font-size: 43px !important;
+    font-weight: 700;
+}
+.list{
+    display: flex !important;
+    gap: 40px !important;
+}
+.nav-link{
+    font-size: 23px !important;
+    font-weight: 500 !important;
+    color: rgb(41, 40, 40) !important;
+    text-wrap: nowrap;
+}
+.navbar a:hover{
+    color: rgb(255, 0, 0) !important;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+    gap: 50px;
+    align-items: center;
+}
+ .wrapper{
+    width: 15rem !important;
+    max-width: 100%;
+    position: relative;
+  }
+.wrapper .oval{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.9rem !important;
+    width: 100%;
+  }
+.wrapper .oval:hover{
+    color:rgb(243, 85, 37); 
+    background-color: black;   
+
+}
+.wrapper .circl{
+    background-color:rgb(243, 85, 37);    ;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    height: 98%;
+    position: absolute;
+    right: 77%;
+    aspect-ratio: 1;
+    padding: 5px 14px !important;
+    border-radius: 40px;
+    font-size: 19.5px;
+    margin-right: 5px;
+}
+.wrapper .circl:hover{
+    color:rgb(243, 85, 37); 
+
+}
+
+@media screen and (max-width:992px) {
+    .navbar{
+        width: 100% !important;
+        height: 110px;
+        padding: 40px 100px !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+    .navbar-collapse {
+        flex-grow: 0 !important;
+        gap: 10px !important;
+        align-items: center;}
+}
